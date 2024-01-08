@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+  html, body {
+
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+
+}
+#container{
+
+    height: 400px;
+    width: 350px;
+    background-color: #fff;   
+    border-radius: 10px;
+    /* position: relative; */
+  }
+
+  #container img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    /* object-position:top; */
+   
+  }
+
+  #container i{
+       color: rgb(229, 17, 17);
+       /* background-color: red; */
+       /* border-radius: 100px; */
+       font-size: 70px;
+       /* padding: 0.1px; */
+       /* position:absolute; */
+       /* top: 50%; */
+       /* left: 50%; */
+       transform: translate(-50%,-50%)  scale(0);
+       opacity: 0;
+       transition: all ease 0.5;
+  }
